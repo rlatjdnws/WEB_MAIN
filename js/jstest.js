@@ -5,8 +5,9 @@ var b
 b = 5;
 */
 
-if (true) {
-    let c = "var 접근"; // let 자주씀씀
+if (true) 
+{
+    let c = "var 접근"; // let 자주씀
     var c_1 = "var 접근";
 }
 //console.log(c); // Error?
