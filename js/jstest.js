@@ -5,8 +5,7 @@ var b
 b = 5;
 */
 
-if (true) 
-{
+if (true) {
     let c = "var 접근"; // let 자주씀
     var c_1 = "var 접근";
 }
