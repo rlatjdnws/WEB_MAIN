@@ -3,10 +3,21 @@ document.getElementById("search_btn").addEventListener('click', search_message);
 // function search_message(){
 //     alert("검색을 수행합니다!");
 // }
+
+// const search_message_msg = () => {
+//     const c = '검색을 수행합니다';
+//     alert(c);
+// };
+
 const search_message = () => {
     const c = '검색을 수행합니다';
     alert(c);
 };
+
+// let search_message = () => {
+//     const c = '검색을 수행합니다';
+//     alert(c);
+// };
 
 function googleSearch() {
     const searchTerm = document.getElementById("search_input").value; // 검색어로 설정
